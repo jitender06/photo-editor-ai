@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* white: #f8f8f8
+#ffa48d
+#ff9b8d
+#000000
+#ffffff
+#ff6a3d
+black: #1a1414 */
+
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
