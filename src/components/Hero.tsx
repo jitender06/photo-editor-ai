@@ -5,7 +5,7 @@ import { HeroCard } from "./HeroCard"
 
 export function Hero() {
   return (
-    <div className="py-16 relative bg-gradient-to-br from-[#ffa48d] via-white to-[#ff9b8d] h-full">
+    <div className="py-16 relative bg-gradient-to-br from-[#ffa48d] via-white to-[#ff9b8d]" style={{height:"calc(100vh - 4rem)"}}>
       <div className="container max-w-4xl mx-auto flex items-center justify-between text-center mt-7">
         <div className="">
           <h1 className="mb-6 text-5xl font-bold tracking-tight lg:text-6xl">
