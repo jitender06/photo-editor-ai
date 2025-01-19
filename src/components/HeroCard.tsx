@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react';
-import { cn } from "@/lib/utils";
 import Marquee from "./ui/marquee";
 import { Blend, Crop, Sparkle, Sparkles } from 'lucide-react';
 // import { useAppSelector } from '@/lib/redux/hook';
@@ -56,14 +55,10 @@ export function HeroCard() {
     // const { domains, selectedDomain, status } = useAppSelector((state) => state.domain)
     const [currentIndex, setCurrentIndex] = useState(0);
     const firstRow = domains.slice(0, domains.length / 2);
-    const secondRow = domains.slice(domains.length / 2);
     const handleNext = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % domains.length);
     };
 
-    const handlePrev = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + domains.length) % domains.length);
-    };
     
     return (
         <div className="relative mt-28">

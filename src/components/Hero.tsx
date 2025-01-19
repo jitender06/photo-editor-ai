@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
-import Image from "next/image"
-import { Wand2, Layers, ImageIcon, UserSquare2, Sparkles, Frame, ImagePlus } from 'lucide-react'
+import { ImagePlus } from 'lucide-react'
 import { HeroCard } from "./HeroCard"
 
 export function Hero() {
