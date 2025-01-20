@@ -1,15 +1,17 @@
 import Cta from "@/components/Cta";
+import Footer from "@/components/Footer";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/NavBar";
 
 export default function Home() {
   return (
     <>
-      <main className="bg-gradient-to-br from-[#ffa48d] via-white to-[#ff9b8d]">
+      <main>
         <NavBar />
         <Hero />
+        <Footer/>
       </main>
-      <Cta />
+      {/* <Cta /> */}
     </>
   );
 }
